@@ -51,7 +51,7 @@ Remark: The data is then converted from .csv format into tables in BigQuery's SQ
 
 ~~~~sql
 
-# Combine 12 tables into 1
+-- Combine 12 tables into 1
 
 SELECT 
     started_at AS start_time,
