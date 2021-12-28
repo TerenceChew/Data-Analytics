@@ -5,6 +5,7 @@ Client: Cylistic
 
 Synopsis
 ---
+This project is 
 
 
 1: Data Obtainment
