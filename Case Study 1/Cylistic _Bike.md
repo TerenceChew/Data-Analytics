@@ -1,7 +1,5 @@
 <h1> Google Data Analytics Capstone Project </h1>  
 
-# haha  
-
 Analyst: Terence  
 Date: 28.12.21  
 Client: Cylistic  
@@ -50,9 +48,10 @@ Remark: The data is then converted from .csv format into tables in BigQuery's SQ
 
 <h3> 2.2: Data preparation </h3>
 
-# Combine 12 tables into 1
-# Only 3 relevant columns are selected
-# Sort data from old to new
+1. Combine 12 tables into 1
+2. Only 3 relevant columns are selected
+3. Sort data from old to new
+4. New table created: ori_tripdata_12mths
 
 ~~~~sql
 SELECT 
