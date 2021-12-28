@@ -1,11 +1,15 @@
 Analyst: Terence  
-Date: 28.12.21
-Client: Cylistic
+Date: 28.12.21  
+Client: Cylistic  
 
 
-Synopsis
+<h3> Synopsis </h3>
 ---
-This project is 
+This is a capstone project from the Google Data Analytics course from Coursera. Characters in this project are fictional.
+
+Scenario
+---
+
 
 
 1: Data Obtainment
