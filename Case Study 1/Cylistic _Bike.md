@@ -46,7 +46,7 @@ The data used is situated within a time span of 12 months, from November 2020 to
 
 Remark: The data is then converted from .csv format into tables in BigQuery's SQL workspace and is renamed as seen in the queries below.
 
-<h3> Data preparation </h3>
+<h3> 2.2: Data preparation </h3>
 
 
 ~~~~sql
