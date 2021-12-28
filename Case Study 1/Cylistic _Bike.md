@@ -30,10 +30,13 @@ Phases of Data Analysis Process
 ---
 
 1: Ask
+---
 
 
 
-1: Data Obtainment
+
+2: Prepare
+---
 
 Data is obtained from Cylistic's history trip data[source](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -43,3 +46,6 @@ SELECT
 FROM 
 WHERE
 ~~~~
+
+3: Process
+---
