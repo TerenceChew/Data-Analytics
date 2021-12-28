@@ -39,7 +39,7 @@ And the audience is:
 ---
 <h3> 2.1: Data preparation </h3>
 
-Data is obtained from Cylistic's history trip data <p> <u> [source](https://divvy-tripdata.s3.amazonaws.com/index.html) </u> </p>. The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).  
+Data is obtained from Cylistic's history trip data [SOURCE](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).  
 
 The data used is within a time span of 12 months, from November 2020 to October 2021 and is stored on Google Cloud Storage [source](https://console.cloud.google.com/storage/browser/case_study_1_data_sources;tab=objects?forceOnBucketsSortingFiltering=false&authuser=0&project=project-1-321206&supportedpurview=project).
 
