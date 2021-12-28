@@ -19,7 +19,7 @@ Instead of organizing marketing campaigns to attract new customers, the company 
 
 Cylistic's primary objective is to design marketing strategies that focus on converting casual riders into members. In order to do that, the marketing analytics team has to better understand their customers.
 
-The company is interested to utilized historical trip data to idenfity insightful trends.
+The company is interested to utilized historical trip data to idenfity insightful trends.  
 
 Phases of Data Analysis Process
 ---
@@ -27,7 +27,7 @@ Phases of Data Analysis Process
 1: Ask
 ---
 
-1.1: Identify the audience, business questions and objectives.
+<h3> 1.1: Identify the audience, business questions and objectives </h3>
 
 Based on the senario given above, the 3 questions that need to be addressed in order to improve Cylistic's future growth are:
 
