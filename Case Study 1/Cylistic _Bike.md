@@ -53,7 +53,7 @@ Create a proper new table to work with:
 1. Combine 12 tables into 1
 2. Only 3 relevant columns are selected and renamed
 3. Sort data from old to new
-4. New table name: ori_tripdata_12mths
+4. New table created: ori_tripdata_12mths
 
 ~~~~sql
 SELECT 
