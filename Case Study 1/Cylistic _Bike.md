@@ -1,4 +1,4 @@
-Analyst: Terence
+Analyst: Terence  
 Date: 28.12.21
 Client: Cylistic
 
