@@ -37,7 +37,7 @@ And the audience is:
 
 2: Prepare
 ---
-
+2.1: Data preparation
 
 Data is obtained from Cylistic's history trip data[source](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
