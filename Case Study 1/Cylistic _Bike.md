@@ -21,11 +21,8 @@ Cylistic's primary objective is to design marketing strategies that focus on con
 
 The company is interested to utilized historical trip data to idenfity insightful trends.  
 
-Phases of Data Analysis Process
----
-
 1: Ask
----
+---  
 <h3> 1.1: Identify the audience, business questions and objectives </h3>
 
 According to the senario given above, the 3 questions that need to be addressed in order to improve Cylistic's future growth are:
