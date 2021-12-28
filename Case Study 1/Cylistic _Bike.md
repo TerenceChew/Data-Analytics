@@ -3,8 +3,7 @@ Date: 28.12.21
 Client: Cylistic
 
 
-Synopsis
-<br />
+Synopsis  
 
 
 1: Data Obtainment
