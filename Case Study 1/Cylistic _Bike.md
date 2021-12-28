@@ -15,13 +15,9 @@ The company, Cylistic, has launched a bike-share programm. Customers who purchas
 
 Cylistic's finance analysts have concluded that members are more profitable than casual riders. They believe that maximizing the number of members would be the key to future growth.
 
-Furthermore, instead of organizing marketing campaigns to attract new customers, the analysts believe that there is a high probabilty to convert casual riders into members as they are already aware of the programm and have choosen it for their mobility needs.
+Instead of organizing marketing campaigns to attract new customers, the company believes that there is a high probabilty to convert casual riders into members as they are already aware of the programm and have choosen it for their mobility needs.
 
-Cylistic's primary objective is to design marketing strategies that focus on converting casual riders into members. In order to do that, the marketing team has to better understand:
-
-1. How casual riders and members differ
-2. Why casual riders would subscribe to a membership
-3. How could the marketing team design strategies to influence casual riders to become members
+Cylistic's primary objective is to design marketing strategies that focus on converting casual riders into members. In order to do that, the marketing analytics team has to better understand their customers.
 
 According to the objectives listed above, the company is interested to utilized historical trip data to idenfity insightful trends.
 
@@ -32,6 +28,17 @@ Phases of Data Analysis Process
 1: Ask
 ---
 
+In this phase of the analysis process, it is important to identify the audience, business questions and objectives.
+
+Based on the senario given above, the 3 questions that need to be addressed in order to improve Cylistic's future growth are:
+
+1. How do casual riders and members use Cylistic bikes differently?
+2. Why would casual riders subscribe to an annual membership?
+3. How could the marketing team design strategies to influence casual riders to become members?
+
+And the audience is:
+1. Cylistics marketing analytics team
+2. Cylistics executive team
 
 
 
