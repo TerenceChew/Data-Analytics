@@ -26,10 +26,9 @@ Phases of Data Analysis Process
 
 1: Ask
 ---
-
 <h3> 1.1: Identify the audience, business questions and objectives </h3>
 
-Based on the senario given above, the 3 questions that need to be addressed in order to improve Cylistic's future growth are:
+According to the senario given above, the 3 questions that need to be addressed in order to improve Cylistic's future growth are:
 
 1. How do casual riders and members use Cylistic bikes differently?
 2. Why would casual riders subscribe to an annual membership?
@@ -41,6 +40,7 @@ And the audience is:
 
 2: Prepare
 ---
+
 
 Data is obtained from Cylistic's history trip data[source](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
