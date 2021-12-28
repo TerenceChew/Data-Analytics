@@ -48,14 +48,14 @@ Remark: The data is then converted from .csv format into tables in BigQuery's SQ
 
 <h3> 2.2: Data preparation </h3>
 
+# Combine 12 tables into 1
+# Only 3 relevant columns are selected
+# Sort data from old to new
 
 ~~~~sql
-
--- Combine 12 tables into 1
-
 SELECT 
-    started_at AS start_time,
-    ended_at AS end_time,                           # Only 3 relevant columns are selected
+    started_at AS start_time, 
+    ended_at AS end_time,
     member_casual AS membership_type
 FROM 
     `project-1-321206.cyclistic.202011_tripdata` AS first
@@ -138,6 +138,10 @@ FROM
     `project-1-321206.cyclistic.202110_tripdata` AS twelfth
 ORDER BY 
     start_time
+~~~~
+
+~~~~sql
+
 ~~~~
 
 3: Process
