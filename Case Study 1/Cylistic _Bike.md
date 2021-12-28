@@ -51,11 +51,11 @@ Remark: The data is then converted from .csv format into tables in BigQuery's SQ
 
 ~~~~sql
 
-# Combine 12 tables into 1 
+# Combine 12 tables into 1
 
 SELECT 
     started_at AS start_time,
-    ended_at AS end_time,
+    ended_at AS end_time,                           # Only 3 relevant columns are selected
     member_casual AS membership_type
 FROM 
     `project-1-321206.cyclistic.202011_tripdata` AS first
