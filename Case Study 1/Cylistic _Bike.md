@@ -48,6 +48,7 @@ Remark: The data is then converted from .csv format into tables in BigQuery's SQ
 
 <h3> 2.2: Data preparation </h3>
 
+Remark:  
 1. Combine 12 tables into 1
 2. Only 3 relevant columns are selected
 3. Sort data from old to new
