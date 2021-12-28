@@ -44,9 +44,9 @@ Data is obtained from Cylistic's history trip data [source](https://divvy-tripda
 
 The data used is situated within a time span of 12 months, from November 2020 to October 2021 and is stored on Google Cloud Storage.
 
-Remark: The data is then converted from .csv format into tables in BigQuery's SQL workspace and is renamed as seen in the queries below.
-
 <h3> 2.2: Data preparation </h3>
+
+The data is converted from .csv format into tables saved in BigQuery's SQL workspace and is renamed as seen in the queries below.
 
 Create a proper new table to work with:
 
