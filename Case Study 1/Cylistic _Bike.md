@@ -1,7 +1,15 @@
+Analyst: Terence
+Date: 28.12.21
+Client: Cylistic
+
+
+Synopsis
+<br />
+
 
 1: Data Obtainment
 
-[source](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Data is obtained from Cylistic's history trip data[source](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 
 ~~~~sql
