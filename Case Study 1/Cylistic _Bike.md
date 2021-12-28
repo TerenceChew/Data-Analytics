@@ -38,19 +38,103 @@ And the audience is:
 
 2: Prepare
 ---
-<h3> 2.1: Data preparation </h3>
+<h3> 2.1: Data obtainment </h3>
 
 Data is obtained from Cylistic's history trip data [source](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).  
 
-The data used is within a time span of 12 months, from November 2020 to October 2021 and is stored on Google Cloud Storage.
+The data used is situated within a time span of 12 months, from November 2020 to October 2021 and is stored on Google Cloud Storage.
 
-Remark: The data is then converted from .csv format into tables in BigQuery's SQL workspace and is renamed as seen in the queries below. 
+Remark: The data is then converted from .csv format into tables in BigQuery's SQL workspace and is renamed as seen in the queries below.
+
+<h3> Data preparation </h3>
 
 
 ~~~~sql
-SELECT
+SELECT 
+    started_at AS start_time,
+    ended_at AS end_time,
+    member_casual AS membership_type
 FROM 
-WHERE
+    `project-1-321206.cyclistic.202011_tripdata` AS first
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202012_tripdata` AS second
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202101_tripdata` AS third
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202102_tripdata` AS fourth
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202103_tripdata` AS fifth
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202104_tripdata` AS sixth
+UNION ALL 
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202105_tripdata` AS seventh
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202106_tripdata` AS eighth
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202107_tripdata` AS ninth 
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202108_tripdata` AS tenth
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202109_tripdata` AS eleventh
+UNION ALL
+SELECT 
+    started_at,
+    ended_at,
+    member_casual
+FROM 
+    `project-1-321206.cyclistic.202110_tripdata` AS twelfth
+ORDER BY 
+    start_time
 ~~~~
 
 3: Process
