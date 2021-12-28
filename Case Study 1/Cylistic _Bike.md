@@ -39,7 +39,7 @@ And the audience is:
 ---
 <h3> 2.1: Data preparation </h3>
 
-Data is obtained from Cylistic's history trip data [source](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [lisence](https://www.divvybikes.com/data-license-agreement).
+Data is obtained from Cylistic's history trip data [source](https://divvy-tripdata.s3.amazonaws.com/index.html). The data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).
 The data used is within a time span of 12 months, from November 2020 to October 2021. 
 
 
