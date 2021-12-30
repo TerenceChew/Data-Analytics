@@ -140,12 +140,9 @@ FROM
     `project-1-321206.cyclistic.202110_tripdata` AS twelfth
 ~~~~
 
-~~~~sql
-
-~~~~
-
 1. Sort data from old to new
 2. Add row numbers for sorting convenience
+3. New table created: v1_tripdata_12mths
 
 ~~~~sql
 SELECT 
@@ -154,6 +151,10 @@ SELECT
 FROM 
     `project-1-321206.cyclistic.ori_tripdata_12mths`
 ~~~~
+
+1. Added (trip_length_minute, trip_length_second, day_of_month, month, weekday_name, weekday_name_as_num)   # Must be revised
+Saved table as v2_tripdata_12mths, after fixes  
+
 
 
 3: Process
