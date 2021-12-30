@@ -50,10 +50,9 @@ The data is converted from .csv format into tables saved in BigQuery's SQL works
 
 Create a proper new table to work with:
 
-1. Combine 12 tables into 1
+1. Combine 12 tables (1 table from each month for a total of 12 months) into 1
 2. Only 3 relevant columns are selected and renamed
-3. Sort data from old to new
-4. New table created: ori_tripdata_12mths
+3. New table created: ori_tripdata_12mths
 
 ~~~~sql
 SELECT 
@@ -139,13 +138,23 @@ SELECT
     member_casual
 FROM 
     `project-1-321206.cyclistic.202110_tripdata` AS twelfth
-ORDER BY 
-    start_time
 ~~~~
 
 ~~~~sql
 
 ~~~~
+
+1. Sort data from old to new
+2. Add row numbers for sorting convenience
+
+~~~~sql
+SELECT 
+    row_number() OVER (ORDER BY start_time) AS row_num,
+    *
+FROM 
+    `project-1-321206.cyclistic.ori_tripdata_12mths`
+~~~~
+
 
 3: Process
 ---
