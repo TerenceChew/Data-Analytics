@@ -225,7 +225,7 @@ WHERE
 
 <h3> 3.4: Final preparation for analysis </h3>  
 
-1. Final filtering and cleaning of data
+1. Last filtering and cleaning of data
 2. Ensure data is ready for analysis
 3. New table created: v3_tripdata  
 
