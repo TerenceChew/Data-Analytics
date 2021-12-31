@@ -368,7 +368,19 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 3. On weekends, Member ride count is lower than Casual
 4. Ride count is low in Q1 and Q4 / Winter and Autumn
 
-<h3> 6.2: Next steps </h3>
+<h3> 6.2: Tasks </h3>
+
+Considering the summary above, the tasks that need to be addressed are:
+
+1. How to increase ride count, especially on weekdays?
+2. How to influence casual riders to become members?
+3. How to improve ride count of riders in Q1 and Q4 / Winter and Autumn?
+4. How to influence riders to ride daily?
+
+<h3> 6.3: Recommendations </h3>
+
+
+
 
 
 
