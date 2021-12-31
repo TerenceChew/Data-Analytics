@@ -245,7 +245,9 @@ ORDER BY
 4: Analyze
 ---
 
-1. Average and max ride length based on membership type over 1 year
+Reminder: Data used in the following analyses is situated within a time span of 12 months 
+
+1. Average and max ride length based on membership type
 
 ~~~~sql
 SELECT
@@ -308,11 +310,22 @@ Results:
 ![avg_ride_length](https://i.postimg.cc/FKH9x5t9/avg-ride-length.png)
 <br></br>
 
-4. Mode of weekday, average ride length
+4. Mode and average ride length of day of week
 
 ~~~~sql
-
+SELECT
+    weekday_name,
+    COUNT(*) AS ride_count,
+    ROUND(AVG(trip_length_minute), 1) AS avg_ride_length_in_minutes
+FROM 
+    `project-1-321206.cyclistic.v3_tripdata`
+GROUP BY
+    weekday_name
+ORDER BY 
+    ride_count DESC
 ~~~~
+
+![test]([mode-of-day-of-week.png](https://postimg.cc/V0XBCdjn))
 
 
 
