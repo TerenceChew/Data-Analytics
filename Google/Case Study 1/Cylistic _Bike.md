@@ -263,7 +263,6 @@ Results:
 ![avg_max_ride_length](https://i.postimg.cc/KvSm9H9j/avg-max-ride-length.png)
 
 <br/><br/>
-
 Ride count according to day of week and membership type
  
 
@@ -287,7 +286,6 @@ Results:
 ![ride_count](https://i.postimg.cc/76Dt8DVz/ride-count.png)
 
 <br/><br/>
-
 Average ride length according to day of week and membership type 
 
 ~~~~sql
