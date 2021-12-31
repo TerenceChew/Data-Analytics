@@ -170,7 +170,7 @@ ORDER BY
 ~~~~
 
 1. Check for errors
-2. ![test](https://imgur.com/a/kgpIKx9)
+2. ![test](https://postimg.cc/G8wtjjgm)
 
 
 3: Process
