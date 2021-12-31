@@ -264,7 +264,13 @@ Results:
 
 ![result_1](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
 
-<h3> 4.2: Determine mode of day of week </h3>
+<h3> 4.2: Determine ride count </h3>  
+
+1. Identify ride count according to day of week and membership type
+
+~~~sql
+SELECT
+~~~
 
 
 
