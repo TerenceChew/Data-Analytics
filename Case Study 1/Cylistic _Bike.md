@@ -264,15 +264,30 @@ Results:
 
 ![avg_max_ride_length](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
 
-<h3> 4.2: Determine ride count </h3>  
+<h3> 4.2: Determine daily ride count </h3>  
 
 1. Identify ride count according to day of week and membership type
 
 ~~~~sql
-
+SELECT
+    weekday_name,
+    COUNT(*) AS ride_count,
+    membership_type
+FROM 
+    `cyclistic.v3_tripdata`
+GROUP BY
+    weekday_name,
+    weekday_name_as_num,
+    membership_type
+ORDER BY 
+    ride_count DESC
 ~~~~
 
+Results:
+
 ![ride_count](https://i.postimg.cc/tgrm03rM/ride-count.png)
+
+<h3> 4.3: Determine average r </h3> 
 
 
 
