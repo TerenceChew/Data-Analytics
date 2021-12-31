@@ -170,7 +170,7 @@ ORDER BY
 ~~~~
 
 1. Check for errors
-2. ![test](https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg)
+2. ![test](https://drive.google.com/file/d/1xoaH4JPlYHr18NxQaNld6UupVurSZ_91/view?usp=sharing)
 
 
 3: Process
