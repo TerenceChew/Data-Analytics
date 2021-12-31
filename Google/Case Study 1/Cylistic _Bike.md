@@ -54,8 +54,8 @@ The data is converted from .csv format into tables saved in BigQuery's SQL works
 
 ~~~~sql
 SELECT 
-    started_at AS start_time, 
-    ended_at AS end_time,
+    started_at AS start_time,           # Select and rename column
+    ended_at AS end_time,           
     member_casual AS membership_type
 FROM 
     `cyclistic.202011_tripdata` AS first
@@ -143,7 +143,7 @@ FROM
 
 <h3> 3.1: Improve data structure </h3>
 
-1. Sort data from old to new.
+1. Sort data from old to new
 2. New table created: v1_tripdata
 
 ~~~~sql
@@ -152,7 +152,7 @@ SELECT
 FROM 
     `cyclistic.ori_tripdata_12mths`
 ORDER BY
-    start_time
+    start_time          # Sort from old to new
 ~~~~
 
 1. Determine trip length in minutes, weekday name, weekday name as number (Sunday = 0), month  
@@ -163,9 +163,9 @@ SELECT
     start_time,
     end_time,
     membership_type,
-    date_diff(end_time, start_time, MINUTE) AS trip_length_minute,
+    date_diff(end_time, start_time, MINUTE) AS trip_length_minute,         # Get trip duration
     format_date("%a", start_time) AS weekday_name,
-    format_date("%w", start_time) AS weekday_name_as_num,           # Sunday = 0
+    format_date("%w", start_time) AS weekday_name_as_num,           # Sunday = 0, Saturday = 6
     format_date("%b", start_time) AS month
 FROM 
     `cyclistic.v1_tripdata`
@@ -215,9 +215,9 @@ The query returned no results. Thus, we are good to proceed with data cleaning.
 UPDATE 
     `cyclistic.v2_tripdata`
 SET 
-    start_time = end_time,
+    start_time = end_time,          # Relocate start time and end time into correct position
     end_time = start_time,
-    trip_length_minute = abs(trip_length_minute)
+    trip_length_minute = abs(trip_length_minute)            # Remove nagative trip length values
 WHERE 
     trip_length_minute < 0 
 ~~~~
