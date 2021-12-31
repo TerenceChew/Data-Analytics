@@ -187,9 +187,9 @@ WHERE
     trip_length_minute < 0          
 ~~~~
 
-The query returned:  
+Results:  
 
-![query result](https://i.postimg.cc/T1jgfhHy/cylistic-1.png)  
+![error_1](https://i.postimg.cc/T1jgfhHy/cylistic-1.png)  
 
 We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time. 
 
@@ -245,7 +245,9 @@ ORDER BY
 4: Analyze
 ---
 
-<h3> Determine average and max ride length </h3>
+<h3> 4.1: Determine average and max ride length </h3>  
+
+1. New table created: avg_max_ride_length
 
 ~~~~sql
 SELECT
@@ -253,10 +255,16 @@ SELECT
     AVG(trip_length_minute) AS avg_ride_length_in_minutes,
     MAX(trip_length_minute) AS max_ride_length_in_minutes
 FROM 
-    `project-1-321206.cyclistic.v3_tripdata`
+    `cyclistic.v3_tripdata`
 GROUP BY 
     membership_type
 ~~~~
+
+Results:
+
+![result_1](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
+
+<h3> 4.2: Determine mode of day of week </h3>
 
 
 
