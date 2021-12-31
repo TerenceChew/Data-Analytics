@@ -150,7 +150,7 @@ FROM
     `project-1-321206.cyclistic.ori_tripdata_12mths`
 ~~~~
 
-1. Determine trip length in minute, weekday name, weekday name as number (Sunday = 0), month
+1. Determine trip length in minutes, weekday name, weekday name as number (Sunday = 0), month  
 New table created: v2_tripdata
 
 ~~~~sql
