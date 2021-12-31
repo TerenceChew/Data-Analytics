@@ -245,7 +245,7 @@ ORDER BY
 4: Analyze
 ---
 
-Reminder: Data used in the following analyses is situated within a time span of 12 months 
+Remarks: Data used in the following analyses is situated within a time span of 12 months.  
 
 <h3> 4.1: Average and max ride length based on membership type </h3>
 
@@ -318,7 +318,7 @@ SELECT
     COUNT(*) AS ride_count,
     ROUND(AVG(trip_length_minute), 1) AS avg_ride_length_in_minutes
 FROM 
-    `project-1-321206.cyclistic.v3_tripdata`
+    `cyclistic.v3_tripdata`
 GROUP BY
     weekday_name
 ORDER BY 
@@ -332,13 +332,25 @@ Results:
 5: Visualize
 ---
 
-Reminder: Data used in the following visualizations is situated within a time span of 12 months 
+Remarks: Visualizations below are created with Google Data Studio. Data used in the visualizations below is situated within a time span of 12 months.  
 
-<h3> 5.1: Comparison in ride length between casual and member riders </h3>
+<h3> 5.1: Average and max ride length based on membership type </h3>
     
 ![viz_1](https://i.postimg.cc/qMGzMsyS/viz-1.png)
 
+<h3> 5.2: Ride count and average ride length according to day of week and membership type </h3>
 
+![viz_2](https://i.postimg.cc/nhYGvRgk/viz-2.png)
 
+<h3> 5.3: Mode and average ride length of day of week </h3>
 
+![viz_3](https://i.postimg.cc/YqPJ59CV/viz-3.png)
+
+<h3> 5.4: Ride count comparison between casual and member riders based on day of week </h3>
+
+![viz_4](https://i.postimg.cc/TPdFmW7K/viz-4.png)
+
+<h3> 5.4: Monthly ride count trend </h3>
+
+![viz_5](https://i.postimg.cc/85WRzZRM/viz-5.png)
 
