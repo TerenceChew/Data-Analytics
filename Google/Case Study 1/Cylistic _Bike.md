@@ -370,11 +370,5 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 
 <h3> 6.2: Next steps </h3>
 
-Task | Recommendation |
---- | --- |
-How to increase ride count, especially on weekdays? | How to increase ride count, especially on weekdays? |
-one  two |
-one | one |
-one | one |
 
 
