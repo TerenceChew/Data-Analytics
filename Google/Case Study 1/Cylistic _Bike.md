@@ -354,3 +354,7 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 
 ![viz_5](https://i.postimg.cc/85WRzZRM/viz-5.png)
 
+<h3> 5.4: Quarterly ride count trend </h3>
+
+![viz_6](https://i.postimg.cc/3JbdzgpT/viz-6.png)
+
