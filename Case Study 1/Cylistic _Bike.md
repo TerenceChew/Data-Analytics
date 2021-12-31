@@ -161,7 +161,7 @@ SELECT
     membership_type,
     date_diff(end_time, start_time, MINUTE) AS trip_length_minute,
     format_date("%a", start_time) AS weekday_name,
-    format_date("%w", start_time) AS weekday_name_as_num,
+    format_date("%w", start_time) AS weekday_name_as_num,           # Sunday = 0
     format_date("%b", start_time) AS month
 FROM 
     `project-1-321206.cyclistic.v1_tripdata`
@@ -170,7 +170,20 @@ ORDER BY
 ~~~~
 
 1. Check for errors
-2. ![test](https://i.postimg.cc/j5CftgzP/cylistic-1.png)
+2. Identify trip length that are less than 0
+
+~~~~sql
+SELECT 
+    *
+FROM 
+    `project-1-321206.cyclistic.v2_tripdata`
+WHERE 
+    trip_length_minute < 0          
+~~~~
+
+The query returned:  
+![test](https://i.postimg.cc/j5CftgzP/cylistic-1.png)  
+We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time. 
 
 
 3: Process
