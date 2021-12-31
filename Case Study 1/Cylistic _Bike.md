@@ -252,10 +252,10 @@ ORDER BY
 ~~~~sql
 SELECT
     membership_type,
-    AVG(trip_length_minute) AS avg_ride_length_in_minutes,
+    ROUND(AVG(trip_length_minute), 1) AS avg_ride_length_in_minutes,
     MAX(trip_length_minute) AS max_ride_length_in_minutes
 FROM 
-    `cyclistic.v3_tripdata`
+    `project-1-321206.cyclistic.v3_tripdata`
 GROUP BY 
     membership_type
 ~~~~
