@@ -286,7 +286,7 @@ ORDER BY
 
 Results:
 
-![ride_count](https://i.postimg.cc/tgrm03rM/ride-count.png)
+![ride_count](https://i.postimg.cc/76Dt8DVz/ride-count.png)
 
 <h3> 4.3: Determine average ride length </h3> 
 
