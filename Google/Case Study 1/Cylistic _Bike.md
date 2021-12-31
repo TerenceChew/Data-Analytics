@@ -245,10 +245,8 @@ ORDER BY
 4: Analyze
 ---
 
-<h3> 4.1: Average and max ride length </h3>  
+<h3> 4.1: Average and max ride length based on membership type over the course of 12 months </h3>  
 
-1. Identify the average and max ride length based on membership type over the course of 12 months
-2. New table created: avg_max_ride_length
 
 ~~~~sql
 SELECT
@@ -265,9 +263,8 @@ Results:
 
 ![avg_max_ride_length](https://i.postimg.cc/KvSm9H9j/avg-max-ride-length.png)
 
-<h3> 4.2: Determine daily ride count </h3>  
-
-1. Identify ride count according to day of week and membership type
+<h3> 4.2: ride count according to day of week and membership type </h3>  
+ 
 
 ~~~~sql
 SELECT
