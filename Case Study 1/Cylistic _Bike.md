@@ -190,7 +190,7 @@ WHERE
 
 The query returned:  
 
-![](https://i.postimg.cc/T1jgfhHy/cylistic-1.png)  
+![query result](https://i.postimg.cc/T1jgfhHy/cylistic-1.png)  
 
 We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time. 
 
