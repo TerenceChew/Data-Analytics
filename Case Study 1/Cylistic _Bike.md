@@ -245,9 +245,10 @@ ORDER BY
 4: Analyze
 ---
 
-<h3> 4.1: Determine average and max ride length </h3>  
+<h3> 4.1: Determine overall average and max ride length </h3>  
 
-1. New table created: avg_max_ride_length
+1. Identify the overall average and max ride length based on membership type
+2. New table created: avg_max_ride_length
 
 ~~~~sql
 SELECT
