@@ -231,7 +231,7 @@ WHERE
 ~~~~sql
 SELECT
     membership_type,
-    DATE(start_time) AS date,
+    DATE(start_time) AS date,           # Get date part 
     trip_length_minute,
     weekday_name,
     weekday_name_as_num,
