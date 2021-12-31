@@ -325,7 +325,7 @@ ORDER BY
     ride_count DESC
 ~~~~
 
-![test]([mode-of-day-of-week.png](https://postimg.cc/V0XBCdjn))
+[mode-of-day-of-week.png](https://postimg.cc/V0XBCdjn)
 
 
 
