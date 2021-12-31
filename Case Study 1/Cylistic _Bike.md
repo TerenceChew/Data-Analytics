@@ -32,7 +32,7 @@ According to the senario given above, the 3 questions that need to be addressed 
 2. Why would casual riders subscribe to an annual membership?
 3. How could the marketing team design strategies to influence casual riders to become members?
 
-And the audience is:
+And the audience are:
 1. Cylistics marketing analytics team
 2. Cylistics executive team
 
