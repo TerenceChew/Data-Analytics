@@ -247,7 +247,7 @@ ORDER BY
 
 Reminder: Data used in the following analyses is situated within a time span of 12 months 
 
-1. Average and max ride length based on membership type
+<h3> 4.1: Average and max ride length based on membership type </h3>
 
 ~~~~sql
 SELECT
@@ -265,7 +265,7 @@ Results:
 ![avg_max_ride_length](https://i.postimg.cc/KvSm9H9j/avg-max-ride-length.png)
 <br/><br/>
 
-2. Ride count according to day of week and membership type
+<h3> 4.2: Ride count according to day of week and membership type </h3>
  
 
 ~~~~sql
@@ -288,7 +288,7 @@ Results:
 ![ride_count](https://i.postimg.cc/76Dt8DVz/ride-count.png)
 <br/><br/>
 
-3. Average ride length according to day of week and membership type 
+<h3> 4.3: Average ride length according to day of week and membership type </h3>
 
 ~~~~sql
 SELECT
@@ -310,7 +310,7 @@ Results:
 ![avg_ride_length](https://i.postimg.cc/FKH9x5t9/avg-ride-length.png)
 <br></br>
 
-4. Mode and average ride length of day of week
+<h3> 4.4: Mode and average ride length of day of week </h3>
 
 ~~~~sql
 SELECT
