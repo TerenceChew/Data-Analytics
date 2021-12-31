@@ -245,7 +245,7 @@ ORDER BY
 4: Analyze
 ---
 
-Average and max ride length based on membership type over the course of 12 months
+<h3> Average and max ride length based on membership type over the course of 12 months </h3>
 
 
 ~~~~sql
