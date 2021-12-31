@@ -291,7 +291,7 @@ Results:
 ~~~~sql
 SELECT
     weekday_name,
-    ROUND(AVG(trip_length_minute), 1) AS avg_trip_length_in_minutes,
+    ROUND(AVG(trip_length_minute), 1) AS avg_ride_length_in_minutes,
     membership_type
 FROM 
     `cyclistic.v3_tripdata`
@@ -305,7 +305,7 @@ ORDER BY
 
 Results:
 
-![avg_ride_length](https://i.postimg.cc/KjZ3Pp5B/avg-ride-length.png)
+![avg_ride_length](https://i.postimg.cc/FKH9x5t9/avg-ride-length.png)
 <br></br>
 
 4. 
