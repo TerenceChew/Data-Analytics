@@ -170,7 +170,7 @@ ORDER BY
 ~~~~
 
 1. Check for errors
-2. ![test](https://postimg.cc/G8wtjjgm)
+2. ![test](https://i.postimg.cc/j5CftgzP/cylistic-1.png)
 
 
 3: Process
