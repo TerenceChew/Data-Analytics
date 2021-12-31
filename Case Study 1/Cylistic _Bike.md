@@ -262,7 +262,7 @@ GROUP BY
 
 Results:
 
-![avg_max_ride_length](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
+![avg_max_ride_length](https://i.postimg.cc/KvSm9H9j/avg-max-ride-length.png)
 
 <h3> 4.2: Determine daily ride count </h3>  
 
