@@ -368,4 +368,7 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 3. On weekends, Member ride count is lower than Casual
 4. Ride count is low in Q1 and Q4 / Winter and Autumn
 
+<h3> 6.2: Next steps </h3>
+
+
 
