@@ -372,12 +372,9 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 
 Task | Recommendation |
 --- | --- |
- test | ing  |
-one | two |
-one | one |
-one | one |
+How to increase ride count, especially on weekdays?  How to increase ride count, especially on weekdays? |
+one  two |
+one  one |
+one  one |
 
 
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
-| Seconds | 301 | 283 |
