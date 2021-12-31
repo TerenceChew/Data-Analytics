@@ -261,8 +261,8 @@ GROUP BY
 Results:
 
 ![avg_max_ride_length](https://i.postimg.cc/KvSm9H9j/avg-max-ride-length.png)
-
 <br/><br/>
+
 Ride count according to day of week and membership type
  
 
