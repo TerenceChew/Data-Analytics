@@ -262,15 +262,17 @@ GROUP BY
 
 Results:
 
-![result_1](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
+![avg_max_ride_length](https://i.postimg.cc/RF3bQ3MJ/result-1.png)
 
 <h3> 4.2: Determine ride count </h3>  
 
 1. Identify ride count according to day of week and membership type
 
-~~~sql
-SELECT
-~~~
+~~~~sql
+
+~~~~
+
+![ride_count](https://i.postimg.cc/tgrm03rM/ride-count.png)
 
 
 
