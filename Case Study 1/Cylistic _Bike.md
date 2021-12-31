@@ -58,84 +58,84 @@ SELECT
     ended_at AS end_time,
     member_casual AS membership_type
 FROM 
-    `project-1-321206.cyclistic.202011_tripdata` AS first
+    `cyclistic.202011_tripdata` AS first
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202012_tripdata` AS second
+    `cyclistic.202012_tripdata` AS second
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202101_tripdata` AS third
+    `cyclistic.202101_tripdata` AS third
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202102_tripdata` AS fourth
+    `cyclistic.202102_tripdata` AS fourth
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202103_tripdata` AS fifth
+    `cyclistic.202103_tripdata` AS fifth
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202104_tripdata` AS sixth
+    `cyclistic.202104_tripdata` AS sixth
 UNION ALL 
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202105_tripdata` AS seventh
+    `cyclistic.202105_tripdata` AS seventh
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202106_tripdata` AS eighth
+    `cyclistic.202106_tripdata` AS eighth
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202107_tripdata` AS ninth 
+    `cyclistic.202107_tripdata` AS ninth 
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202108_tripdata` AS tenth
+    `cyclistic.202108_tripdata` AS tenth
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202109_tripdata` AS eleventh
+    `cyclistic.202109_tripdata` AS eleventh
 UNION ALL
 SELECT 
     started_at,
     ended_at,
     member_casual
 FROM 
-    `project-1-321206.cyclistic.202110_tripdata` AS twelfth
+    `cyclistic.202110_tripdata` AS twelfth
 ~~~~
 
 3: Process
@@ -143,16 +143,16 @@ FROM
 
 <h3> 3.1: Improve data structure </h3>
 
-1. Sort data from old to new
-2. Add row numbers for sorting convenience
-3. New table created: v1_tripdata
+1. Sort data from old to new.
+2. New table created: v1_tripdata
 
 ~~~~sql
 SELECT 
-    row_number() OVER (ORDER BY start_time) AS row_num,
     *
 FROM 
-    `project-1-321206.cyclistic.ori_tripdata_12mths`
+    `cyclistic.ori_tripdata_12mths`
+ORDER BY
+    start_time
 ~~~~
 
 1. Determine trip length in minutes, weekday name, weekday name as number (Sunday = 0), month  
@@ -160,7 +160,6 @@ FROM
 
 ~~~~sql
 SELECT 
-    row_num,
     start_time,
     end_time,
     membership_type,
@@ -169,9 +168,9 @@ SELECT
     format_date("%w", start_time) AS weekday_name_as_num,           # Sunday = 0
     format_date("%b", start_time) AS month
 FROM 
-    `project-1-321206.cyclistic.v1_tripdata`
+    `cyclistic.v1_tripdata`
 ORDER BY 
-    row_num
+    start_time
 ~~~~
 
 <h3> 3.2: Verify data integrity </h3>  
@@ -183,7 +182,7 @@ ORDER BY
 SELECT 
     *
 FROM 
-    `project-1-321206.cyclistic.v2_tripdata`
+    `cyclistic.v2_tripdata`
 WHERE 
     trip_length_minute < 0          
 ~~~~
@@ -199,7 +198,7 @@ We can easily identify that the negative trip length value is caused by the misp
 SELECT 
     *
 FROM 
-    `project-1-321206.cyclistic.v2_tripdata`
+    `cyclistic.v2_tripdata`
 WHERE 
     trip_length_minute IS NULL
 ~~~~
@@ -214,7 +213,7 @@ The query returned no results. Thus, we are good to proceed with data cleaning.
 
 ~~~~sql
 UPDATE 
-    `project-1-321206.cyclistic.v2_tripdata`
+    `cyclistic.v2_tripdata`
 SET 
     start_time = end_time,
     end_time = start_time,
@@ -238,7 +237,7 @@ SELECT
     weekday_name_as_num,
     month
 FROM 
-    `project-1-321206.cyclistic.v2_tripdata`
+    `cyclistic.v2_tripdata`
 ORDER BY 
     start_time
 ~~~~
