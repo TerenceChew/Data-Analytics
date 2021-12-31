@@ -151,7 +151,7 @@ FROM
 ~~~~
 
 1. Determine trip length in minutes, weekday name, weekday name as number (Sunday = 0), month  
-New table created: v2_tripdata
+2. New table created: v2_tripdata
 
 ~~~~sql
 SELECT 
@@ -168,6 +168,9 @@ FROM
 ORDER BY 
     row_num
 ~~~~
+
+1. Check for errors
+2. ![test](https://www.becomingminimalist.com/wp-content/uploads/2019/09/how-to-be-happy.jpg)
 
 
 3: Process
