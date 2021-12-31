@@ -332,7 +332,9 @@ Results:
 5: Visualize
 ---
 
-<h3> 5.1: 
+<h3> 5.1: Comparison in ride length between casual and member riders </h3>
+    
+![viz_1](https://i.postimg.cc/qMGzMsyS/viz-1.png)
 
 
 
