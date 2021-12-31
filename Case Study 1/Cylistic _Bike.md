@@ -48,7 +48,7 @@ The data used is situated within a time span of 12 months, from November 2020 to
 
 The data is converted from .csv format into tables saved in BigQuery's SQL workspace and is renamed as seen in the queries below.
 
-1. Combine 12 tables (1 table from each month for a total of 12 months) into 1
+1. Combine 12 tables into 1 (1 table from each month for a total of 12 months)
 2. Only 3 relevant columns are selected and renamed
 3. New table created: ori_tripdata_12mths
 
