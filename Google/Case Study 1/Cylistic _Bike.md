@@ -358,3 +358,7 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 
 ![viz_6](https://i.postimg.cc/3JbdzgpT/viz-6.png)
 
+6: Share
+---
+
+
