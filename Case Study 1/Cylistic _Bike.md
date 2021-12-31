@@ -182,8 +182,11 @@ WHERE
 ~~~~
 
 The query returned:  
+1. We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time.  
 ![test](https://i.postimg.cc/j5CftgzP/cylistic-1.png)  
-We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time. 
+
+
+
 
 
 3: Process
