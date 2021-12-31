@@ -170,7 +170,7 @@ ORDER BY
 ~~~~
 
 1. Check for errors
-2. ![test](https://drive.google.com/file/d/1xoaH4JPlYHr18NxQaNld6UupVurSZ_91/view?usp=sharing)
+2. ![test](https://drive.google.com/drive/u/0/folders/1qSj7wY4yQ4Z2uhgr67N9FUH8gAqk0h9Z)
 
 
 3: Process
