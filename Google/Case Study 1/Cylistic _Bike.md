@@ -217,7 +217,7 @@ UPDATE
 SET 
     start_time = end_time,          # Relocate start time and end time into correct position
     end_time = start_time,
-    trip_length_minute = abs(trip_length_minute)            # Remove nagative trip length values
+    trip_length_minute = abs(trip_length_minute)            # Remove nagative values
 WHERE 
     trip_length_minute < 0 
 ~~~~
