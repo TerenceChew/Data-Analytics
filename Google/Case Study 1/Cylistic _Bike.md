@@ -244,7 +244,6 @@ ORDER BY
 
 4: Analyze
 ---
-<br></br>
 
 Average and max ride length based on membership type over the course of 12 months
 
