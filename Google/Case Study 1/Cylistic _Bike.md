@@ -370,7 +370,7 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 
 <h3> 6.2: Tasks </h3>
 
-Considering the summary above, the tasks that need to be addressed are:
+According to the summary above, the tasks that need to be addressed are:
 
 1. How to increase ride count, especially on weekdays?
 2. How to influence casual riders to become members?
@@ -378,6 +378,8 @@ Considering the summary above, the tasks that need to be addressed are:
 4. How to influence riders to ride daily?
 
 <h3> 6.3: Recommendations </h3>
+
+Considering the tasks stated, the strategies that could be implemented are:
 
 1. Provide additional benefits and lower rates for riders, primarily members, who ride on weekdays
 2. Lower rates in Q1 and Q4
