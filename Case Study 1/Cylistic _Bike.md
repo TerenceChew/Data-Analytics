@@ -281,7 +281,7 @@ GROUP BY
     weekday_name_as_num,
     membership_type
 ORDER BY 
-    ride_count DESC
+    weekday_name_as_num
 ~~~~
 
 Results:
