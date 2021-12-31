@@ -284,11 +284,8 @@ ORDER BY
 
 Results:
 
-![ride_count](https://i.postimg.cc/76Dt8DVz/ride-count.png)  
-  
+![ride_count](https://i.postimg.cc/76Dt8DVz/ride-count.png)
 <br/><br/>
-
-
 Average ride length according to day of week and membership type 
 
 ~~~~sql
