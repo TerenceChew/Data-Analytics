@@ -245,7 +245,7 @@ ORDER BY
 4: Analyze
 ---
 
-<h3> 4.1: Determine average and max ride length </h3>  
+<h3> 4.1: Average and max ride length </h3>  
 
 1. Identify the average and max ride length based on membership type over the course of 12 months
 2. New table created: avg_max_ride_length
