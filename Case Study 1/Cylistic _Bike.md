@@ -287,7 +287,7 @@ Results:
 
 ![ride_count](https://i.postimg.cc/tgrm03rM/ride-count.png)
 
-<h3> 4.3: Determine average r </h3> 
+<h3> 4.3: Determine average ride length </h3> 
 
 
 
