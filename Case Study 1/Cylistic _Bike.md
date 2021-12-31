@@ -138,6 +138,11 @@ FROM
     `project-1-321206.cyclistic.202110_tripdata` AS twelfth
 ~~~~
 
+3: Process
+---
+
+<h3> 3.1: Improve data structure </h3>
+
 1. Sort data from old to new
 2. Add row numbers for sorting convenience
 3. New table created: v1_tripdata
@@ -169,6 +174,8 @@ ORDER BY
     row_num
 ~~~~
 
+<h3> 3.2: Verify data integrity </h3>  
+
 1. Check for errors
 2. Identify trip length that are less than 0
 
@@ -182,12 +189,59 @@ WHERE
 ~~~~
 
 The query returned:  
-1. We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time.  
+
 ![test](https://i.postimg.cc/j5CftgzP/cylistic-1.png)  
 
+We can easily identify that the negative trip length value is caused by the mispositioning of start time and end time. 
+
+1. Check for NULL values
+~~~~sql
+SELECT 
+    *
+FROM 
+    `project-1-321206.cyclistic.v2_tripdata`
+WHERE 
+    trip_length_minute IS NULL
+~~~~
+
+The query returned no results. Thus, we are good to proceed with data cleaning.  
+
+<h3> 3.3: Data cleaning </h3>
+
+1. Rectify errors
+2. Relocate start time and end time into correct position
+3. Remove nagative trip length values
+
+~~~~sql
+UPDATE 
+    `project-1-321206.cyclistic.v2_tripdata`
+SET 
+    start_time = end_time,
+    end_time = start_time,
+    trip_length_minute = abs(trip_length_minute)
+WHERE 
+    trip_length_minute < 0 
+~~~~
+
+<h3> 3.4: Final preparation for analysis </h3>  
+
+1. Final filtering and cleaning of data
+2. Ensure data is ready for analysis
+3. New table created: v3_tripdata  
+
+~~~~sql
+SELECT
+    membership_type,
+    DATE(start_time) AS date,
+    trip_length_minute,
+    weekday_name,
+    weekday_name_as_num,
+    month
+FROM 
+    `project-1-321206.cyclistic.v2_tripdata`
+ORDER BY 
+    start_time
+~~~~
 
 
 
-
-3: Process
----
