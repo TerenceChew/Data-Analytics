@@ -245,6 +245,19 @@ ORDER BY
 4: Analyze
 ---
 
+<h3> Determine average and max ride length </h3>
+
+~~~~sql
+SELECT
+    membership_type,
+    AVG(trip_length_minute) AS avg_ride_length_in_minutes,
+    MAX(trip_length_minute) AS max_ride_length_in_minutes
+FROM 
+    `project-1-321206.cyclistic.v3_tripdata`
+GROUP BY 
+    membership_type
+~~~~
+
 
 
 
