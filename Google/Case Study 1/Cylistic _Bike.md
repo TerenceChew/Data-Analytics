@@ -361,4 +361,11 @@ Remarks: Visualizations below are created with Google Data Studio. Data used in 
 6: Share
 ---
 
+<h3> 6.1: Analysis summary </h3>
+
+1. Overall ride count is lower on weekdays
+2. On weekdays, Casual ride count is lower than Member
+3. On weekends, Member ride count is lower than Casual
+4. Ride count is low in Q1 and Q4 / Winter and Autumn
+
 
