@@ -308,7 +308,7 @@ ORDER BY
 Results:
 
 ![avg_ride_length](https://i.postimg.cc/FKH9x5t9/avg-ride-length.png)
-<br></br>
+<br>
 
 <h3> 4.4: Mode and average ride length of day of week </h3>
 
