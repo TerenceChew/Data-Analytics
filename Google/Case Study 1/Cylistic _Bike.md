@@ -386,8 +386,8 @@ Considering the tasks stated, the strategies that could be implemented are:
 3. Loyalty rewards for membership subscribers
 4. Establish an application that collects points according to ride length, that can be exchanged for rewards (Longer ride length = More points)
 5. Implement a scoring system that collects points, at an incrementing rate for every consecutive day that the rider successfully completed a ride, which can be exchanged for rewards
+  
 
-
-https://datastudio.google.com/reporting/9e73bcc5-1c56-4211-a4a8-cbf3f98cb954
+Remarks: A complete visualization in presentation format can be accessed here [source](https://datastudio.google.com/reporting/9e73bcc5-1c56-4211-a4a8-cbf3f98cb954)
 
 
