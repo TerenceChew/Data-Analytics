@@ -1,1 +1,1 @@
-An individual capstone project from the Google Data Analytics course.
+An individual capstone project from Google Data Analytics course.
