@@ -1,3 +1,3 @@
 # Cylistic Bike Case Study
 
-An individual capstone project from Google Data Analytics course on Coursera.
+An individual capstone project from Google Data Analytics course on [Coursera](https://www.coursera.org/).
